@@ -1,5 +1,7 @@
 import asyncio
 
+import asyncio
+
 def handle_request():
     db_connection = get_db_connection()
     result = db_connection.execute('SELECT * FROM users WHERE id = ?', (user_id,))
